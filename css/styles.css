@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  margin: auto;
+  
+  
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    align-items: flex-end;
+    background-color:  #3B5998;
+    
+}
+header img{
+    width: 130px;
+    
+   
+    
+    
+
+}
+
+.login{ 
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+
+  
+    
+
+}
+#password{
+    width: 110px;
+    margin-right: 10px;
+    
+
+}
+#login-bottom{
+    display: flex;
+    height: 20px;
+    
+}
+#signup{
+    background-color: #67A54B ;
+    padding:2px 20px;
+    color: white;
+    margin-bottom: 10px;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#click{
+ background-color: #3B5998;
+ color: white;
+ margin-right: 62px;
+}
+#main-content{
+    display: flex;
+    background-color:  #EAEDF5;
+    padding-top: 30px;
+    
+    justify-content: center; 
+    
+}  
+
+h1{
+    font-size: 28px;
+}
+
+#text-image{
+    padding-right: 70px;
+}
+#free{
+    
+    padding-bottom: 10px;        
+    
+
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: flex-end;
+}
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.textbelow-form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    align-items: flex-end;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+#languages{
+    display: flex;
+    flex-direction: row;
+}
+
+#about{
+    display: flex;
+    flex-direction: row;
+}
+
+#more-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#carrers{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#languages p{
+    margin-right: 20px;
+}
+
+#more-info p{
+    margin-right: 20px;
+}
+#copyrights{
+    margin-right: 90px;
+}
+#email-login-div{
+    padding-right: 10px;
+}
+#email-login{
+    width: 110px;
+    margin-right: 10px;
+}
+
